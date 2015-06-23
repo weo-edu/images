@@ -28,5 +28,9 @@
   },
   "devDependencies": {
     "mocha-co": "^1.17.1-co.1"
+  },
+  "engines": {
+    "npm": "2.11.1",
+    "iojs": "1.8.2"
   }
 }
