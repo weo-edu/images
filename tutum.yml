@@ -17,6 +17,7 @@ images_lb:
 #
 images:
   image: 'tutum.co/ashaffer/images'
+  target_num_containers: 3
   autoredeploy: true
   expose:
     - '3000'
