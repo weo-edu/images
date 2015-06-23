@@ -16,7 +16,7 @@ images_lb:
 # Image manipulation server
 #
 images:
-  image: 'tutum.co/ashaffer/images'
+  image: 'tutum.co/ashaffer/images:master'
   target_num_containers: 3
   autoredeploy: true
   expose:
