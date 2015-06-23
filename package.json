@@ -1,0 +1,20 @@
+{
+  "name": "images",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weo-edu/images.git"
+  },
+  "author": "ashaffer (http://github.com/ashaffer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weo-edu/images/issues"
+  },
+  "homepage": "https://github.com/weo-edu/images#readme"
+}
