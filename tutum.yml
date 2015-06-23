@@ -1,0 +1,24 @@
+#
+# Images Load Balancer
+#
+images_lb:
+  image: 'tutum/haproxy:latest'
+  links:
+    - images
+  ports:
+    - '80:80'
+  roles:
+    - global
+  environment:
+    - BACKEND_PORT: 3000
+
+#
+# Image manipulation server
+#
+images:
+  image: 'tutum.co/ashaffer/images'
+  autoredeploy: true
+  expose:
+    - '3000'
+  environment:
+    PORT: 3000
