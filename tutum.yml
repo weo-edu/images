@@ -10,7 +10,7 @@ images_lb:
   roles:
     - global
   environment:
-    - BACKEND_PORT: 3000
+    BACKEND_PORT: 3000
 
 #
 # Image manipulation server
