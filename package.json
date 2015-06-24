@@ -19,7 +19,7 @@
   "homepage": "https://github.com/weo-edu/images#readme",
   "dependencies": {
     "babel": "^5.6.4",
-    "download": "weo-edu/download",
+    "download": "git://github.com/weo-edu/download.git",
     "gm": "^1.18.1",
     "koa": "^0.21.0",
     "koa-mount": "^1.3.0",
